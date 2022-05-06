@@ -1,0 +1,169 @@
+:root {
+    --Red: #EB5757;
+    --while: #FFFFFF;
+}
+
+html,
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body {
+    display: grid;
+    width: 25%;
+}
+
+.button {
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid rgb(246, 246, 246);
+    color: var(--White);
+    background-color: var(--Very_dark_blue_main_BG);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background: #782875;
+    box-shadow: 0 0 10px #07f4e0, 0 0 40px #07f4e0, 0 0 80px #07f4e0;
+    transition-delay: 0s;
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
+
+.CreateButton {
+    margin: 10px 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.profile-card {
+    background: #EB5757;
+    position: static;
+    width: 364px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 364px;
+    height: 92px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 10px;
+}
+
+.r {
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.profile-card span:nth-child(1) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+
+.profile-card span:nth-child(2) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.profile-card span:nth-child(3) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.s {
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 18px;
+    top: 55px;
+    border-top: 1px solid #888888;
+    padding-top: 11px;
+}
+
+.profile-card-top p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* Text Black */
+    color: #2F2F2F;
+    margin-left: 20px;
+}
+
+.profile-card-top span:nth-child(1) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    /* Light Text */
+    color: #888888;
+}
+
+.profile-card-top span:nth-child(2) {
+    top: 9px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    /* Light Text */
+    color: #888888;
+    margin-left: 200px;
+}
+
+.lila {
+    background: #9B51E0;
+}
+
+.plomo {
+    background: #BDBDBD;
+}
